@@ -1,27 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+:root {
+  --body-background-color: #283618;
+  --app-background-color: #fefae0;
+  --app-green-color: #606c38;
+}
 
-*{
-    font-family: 'Varela Round', sans-serif;
+* {
+  font-family: "Varela Round", sans-serif;
 
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
-    margin: auto;
-    background-color: blueviolet;
-    color: aliceblue;
-    text-align: center;
+body {
+  background-color: var(--body-background-color);
+  margin: 0;
 }
 
-
-table, td, th{
-    border: 3px solid blueviolet;   
+.container {
+  border-radius: 3vw;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  width: 50vw;
+  margin: auto;
+  background-color: var(--app-background-color);
+  color: var(--body-background-color);
+  text-align: center;
 }
 
-table{
-    border-collapse: collapse;
-    background-color: aliceblue;
-    color: blueviolet;
+label{
+    margin: 1.5vw;
+}
+
+input{
+width: 80%;
+padding: 0.5rem;
+margin: auto;
+border: none;
+color: var(--body-background-color);
+}
+
+.cash-section{
+    padding-left: 0;
+}
+
+button{
+    width: 75px;
+    height: 35px;
+    margin: 1.5vw auto;
+    background-color: var(--body-background-color);
+    color: var(--app-background-color);
+    border: none;
+}
+
+table,
+td,
+th {
+  border: 1px solid var(--app-background-color);
+}
+
+.num-of-notes{
+    background-color: var(--app-green-color);
+}
+
+table {
+  border-collapse: collapse;
+  background-color: var(--body-background-color);
+  color: var(--app-background-color);
+  font-size: small;
+}
+
+table caption{
+    color: var(--body-background-color);
+    margin-bottom: 1.5vw;
+    font-size: medium;
+
+}
+
+.table-container{
+    padding-left: 0;
+    
 }
