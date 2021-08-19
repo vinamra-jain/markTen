@@ -7,7 +7,6 @@
 
 * {
   font-family: "Varela Round", sans-serif;
-
 }
 
 body {
@@ -20,63 +19,65 @@ body {
   display: flex;
   padding: 1rem;
   flex-direction: column;
-  width: 50vw;
+  width: 70vw;
   margin: auto;
   background-color: var(--app-background-color);
   color: var(--body-background-color);
   text-align: center;
 }
 
-label{
-    margin: 1.5vw;
+label {
+  margin: 1.5vw;
 }
 
-input{
-width: 80%;
-padding: 0.5rem;
-margin: auto;
-border: none;
-color: var(--body-background-color);
+input {
+  width: 80%;
+  padding: 0.5rem;
+  margin: auto;
+  border: none;
+  color: var(--body-background-color);
 }
 
-.cash-section{
-    padding-left: 0;
+.cash-section {
+  padding-left: 0;
 }
 
-button{
-    width: 75px;
-    height: 35px;
-    margin: 1.5vw auto;
-    background-color: var(--body-background-color);
-    color: var(--app-background-color);
-    border: none;
+button {
+  width: 75px;
+  height: 35px;
+  margin: 1.5vw auto;
+  background-color: var(--body-background-color);
+  color: var(--app-background-color);
+  border: none;
 }
 
-table,
-td,
-th {
-  border: 1px solid var(--app-background-color);
-}
-
-.num-of-notes{
-    background-color: var(--app-green-color);
+.num-of-notes {
+  background-color: var(--app-green-color);
 }
 
 table {
+  border: 1px solid var(--app-background-color);
   border-collapse: collapse;
   background-color: var(--body-background-color);
   color: var(--app-background-color);
   font-size: small;
+  margin: auto;
 }
 
-table caption{
-    color: var(--body-background-color);
-    margin-bottom: 1.5vw;
-    font-size: medium;
-
+td,
+th {
+  border: 1px solid var(--app-background-color);
+    width: 2.5vw;
+    padding: 0.8vw;
 }
 
-.table-container{
-    padding-left: 0;
-    
+table caption {
+  color: var(--body-background-color);
+  margin-bottom: 1.5vw;
+  font-size: medium;
+}
+
+.table-container {
+  padding-left: 0;
+  margin: auto;
 }
